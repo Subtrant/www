@@ -10,7 +10,7 @@ export default function Footer() {
               src="/subtrantlogo.png"
               alt="Subtrant Logo"
               className="h-8 w-auto"
-              width={20}
+              width={30}
               height={30}
             />
           </div>

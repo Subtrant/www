@@ -10,8 +10,8 @@ export default function NavBar() {
               src="/subtrantlogo.png"
               alt="Subtrant Logo"
               className="h-10 w-auto"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
             />
             <span className="ml-3 font-semibold text-xl">
               Subtrant Softworks

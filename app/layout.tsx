@@ -10,7 +10,8 @@ const interFont = Inter({
 
 export const metadata: Metadata = {
   title: "Subtrant Softworks",
-  description: "!TODO",
+  description:
+    "Software development enthusiasts from the City of Education, Malang.",
 };
 
 export default function RootLayout({
