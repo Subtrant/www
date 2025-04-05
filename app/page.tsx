@@ -7,7 +7,7 @@ export default function RootPage() {
     <main className="container mx-auto px-4 py-6 text-center max-w-5xl w-full">
       <h1 className="text-3xl font-bold">Welcome to Subtrant Softworks!</h1>
       <p className="mt-4">
-        Software development enthusiasts from the great 1945, Indonesia.
+        Software development enthusiasts from the City of Education, Malang.
       </p>
       <div className="flex justify-center space-x-4 mt-4">
         <Link
