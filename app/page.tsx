@@ -23,7 +23,7 @@ export default function RootPage() {
           <IoMail />
         </Link>
         <Link
-          href="https://discord.com/?"
+          href="https://discord.gg/JZQ2RRNk"
           className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
         >
           <FaDiscord />
