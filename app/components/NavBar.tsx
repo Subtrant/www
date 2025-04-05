@@ -7,16 +7,13 @@ export default function NavBar() {
       <div className="container mx-auto px-4 py-3 max-w-5xl">
         <div className="flex items-center justify-center">
           <div className="flex items-center space-x-2">
-            <Link href="/">
-              <Image
-                src="/subtrantlogo.png"
-                alt="Subtrant Logo"
-                className="h-10 w-auto"
-                width={40}
-                height={40}
-              />
-            </Link>
-
+            <Image
+              src="/subtrantlogo.png"
+              alt="Subtrant Logo"
+              className="h-10 w-auto"
+              width={40}
+              height={40}
+            />
             <span className="ml-3 font-semibold text-xl">
               Subtrant Softworks
             </span>
