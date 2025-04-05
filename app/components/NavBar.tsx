@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <nav className="text-white shadow-md">
-      <div className="container mx-auto px-4 py-3">
-        <div className="flex justify-between items-center">
+    <nav className="text-white shadow-md w-full">
+      <div className="container mx-auto px-4 py-3 max-w-5xl">
+        <div className="flex items-center justify-center">
           <div className="flex items-center space-x-2">
             <Link href="/">
               <Image
@@ -20,21 +20,6 @@ export default function NavBar() {
             <span className="ml-3 font-semibold text-xl">
               Subtrant Softworks
             </span>
-          </div>
-
-          <div className="hidden md:flex space-x-6">
-            <Link
-              href="/about"
-              className="hover:text-gray-300 transition-colors"
-            >
-              About
-            </Link>
-            <Link
-              href="/contact"
-              className="hover:text-gray-300 transition-colors"
-            >
-              Contact
-            </Link>
           </div>
         </div>
       </div>

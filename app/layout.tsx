@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interFont.className} antialiased`}>
+      <body
+        className={`${interFont.className} antialiased flex flex-col mt-30 w-full justify-center items-center text-center`}
+      >
         <NavBar />
         {children}
         <Footer />
