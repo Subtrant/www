@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FaDiscord, FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import Image from "next/image";
 
 export default function RootPage() {
   return (
@@ -28,6 +29,14 @@ export default function RootPage() {
         >
           <FaDiscord />
         </Link>
+      </div>
+      <div className="container flex mt-4 justify-center">
+        <Image
+          src="/subtrantanime.png"
+          alt="Subtrant Anime"
+          width={150}
+          height={150}
+        />
       </div>
     </main>
   );

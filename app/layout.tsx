@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${interFont.className} antialiased flex flex-col mt-30 w-full justify-center items-center text-center`}
+        className={`${interFont.className} antialiased flex flex-col mt-20 w-full justify-center items-center text-center`}
       >
         <NavBar />
         {children}
